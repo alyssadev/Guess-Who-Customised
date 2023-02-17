@@ -1,44 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 
-body, html{
+body, html {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    
+
 }
 
-body{
+body {
     background-image: url("./assets/day.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#topbar{
+#topbar {
     /* background-color: lightblue; */
     padding: 20px;
     margin-bottom: 6vw;
-    
+
 }
 
-#topButtons{
+#topButtons {
     /* display: flex; */
     /* flex-direction:row; */
     /* display: inline-block; */
     float: right;
 }
 
-h1{
+h1 {
     margin: 0 auto;
     display: inline-block;
     text-align: left;
     padding: 0.1em;
-    background-color:#57d854;
+    background-color: rgba(149, 46, 255, 0.3);
 }
 
-.container div{
-    all:unset;
+.container div {
+    all: unset;
 }
 
-.container{
+.container {
     max-width: 90%;
     margin: 0 auto;
     /* margin-left: 2em; */
@@ -46,35 +46,35 @@ h1{
     text-align: center;
 }
 
-.container p{
+.container p {
     margin: 0;
     font-size: 1.4em;
     font-weight: 800;
 }
 
-.portraits{
+.portraits {
     border: 2px solid transparent;
     width: 8rem;
     margin: 1px;
 }
 
-.portraits:hover{
+.portraits:hover {
     background: #2ea1fb;
     /* border: 2px dashed black; */
 }
 
-.dark{
+.dark {
     opacity: 0.4;
 }
 
-footer{
+footer {
     font-family: 'Inter', sans-serif;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #57d854;
-    color: black;
+    background-color: rgb(189, 124, 255);
+    color: #ffffff;
     text-align: center;
     /* font-size: 0.9vw; */
     padding: 0.2vw;
@@ -90,33 +90,37 @@ footer{
     background-color: transparent;
 } */
 
-button img{
-    width:40px;
+button img {
+    width: 40px;
     background-color: transparent;
 }
 
-button{
+button {
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 @media only screen and (max-width: 700px) {
-    #topButtons{
+    #topButtons {
         margin: 20px;
         float: none;
         text-align: center;
     }
 
-    h1{
+    h1 {
         text-align: center;
     }
 
-    #topbar{
+    #topbar {
         text-align: center;
     }
 
-    .container{
+    .container {
         padding-top: 30px;
-        background-color:rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.6);
     }
+}
+
+.divider {
+    font-size: 50px;
 }
