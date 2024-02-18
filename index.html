@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Guess Who - Genshin Impact</title>
-        <meta name="description" content="A Genshin Impact twist on the classical game of Guess Who. Play with your friends now!">
+        <title>Guess Who Customised</title>
+        <meta name="description" content="Guess Who, but it's customised/customisable">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="assets/favicon_2.png">
         <link rel="stylesheet" href="styles.css">
@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="topbar">
-            <h1 style="text-align: center">Genshin Impact - Guess Who<br>(Version 3.4)</h1>
+            <h1 style="text-align: center">Guess Who Customised</h1>
             <div id="topButtons">
                 <button id="nightBtn"><img src="./assets/004-dark-mode.png"></button>
 
@@ -23,354 +23,15 @@
                 <button id="male"><img src="./assets/002-masculine.png"></button>
                 <button id="female"><img src="./assets/001-femenine.png"></button>
 
-                <span class="divider">|</span>
-
-                <button id="pyro"><img src="./assets/icon_pyro.png"></button>
-                <button id="hydro"><img src="./assets/icon_hydro.png"></button>
-                <button id="electro"><img src="./assets/icon_electro.png"></button>
-                <button id="anemo"><img src="./assets/icon_anemo.png"></button>
-                <button id="cryo"><img src="./assets/icon_cryo.png"></button>
-                <button id="geo"><img src="./assets/icon_geo.png"></button>
-                <button id="dendro"><img src="./assets/icon_dendro.png"></button>
-
-                <span class="divider">|</span>
-
-                <button id="swords"><img src="./assets/icon_sword.png"></button>
-                <button id="claymores"><img src="./assets/icon_claymores.png"></button>
-                <button id="polearms"><img src="./assets/icon_polearms.png"></button>
-                <button id="catalysts"><img src="./assets/icon_catalyst.png"></button>
-                <button id="bows"><img src="./assets/icon_bows.png"></button>
-
-                <span class="divider">|</span>
-
-                <button id="mondstadt"><img src="./assets/icon_mondstadt.jpg"></button>
-                <button id="liyue"><img src="./assets/icon_liyue.png"></button>
-                <button id="inazuma"><img src="./assets/icon_inazuma.png"></button>
-                <button id="sumeru"><img src="./assets/icon_sumeru.png"></button>
+                <span class="buttons"></span>
             </div>
         </div>
 
         <div class="container">
-            <div class="character">
+<!--            <div class="character">
                 <img class="portraits pyro female bows mondstadt" src="./assets/portraits/amber.png">
                 <p class="character_name">Amber</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro male swords sumeru" src="./assets/portraits/alhatham.png">
-                <p class="character_name">Al Haitham</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo male catalysts sumeru" src="./assets/portraits/wanderer.png">
-                <p class="character_name">Wanderer</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro female polearms sumeru" src="./assets/portraits/yaoyao.png">
-                <p class="character_name">Yao Yao</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo female bows sumeru" src="./assets/portraits/faruzan.png">
-                <p class="character_name">Faruzan</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female swords sumeru" src="./assets/portraits/layla.png">
-                <p class="character_name">Layla</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro female catalysts sumeru" src="./assets/portraits/nahida.png">
-                <p class="character_name">Nahida</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female swords sumeru" src="./assets/portraits/nilou.png">
-                <p class="character_name">Nilou</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro male polearms sumeru" src="./assets/portraits/cyno.png">
-                <p class="character_name">Cyno</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female claymores sumeru" src="./assets/portraits/dori.png">
-                <p class="character_name">Dori</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro male bows sumeru" src="./assets/portraits/tighnari.png">
-                <p class="character_name">Tighnari</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro female bows sumeru" src="./assets/portraits/collei.png">
-                <p class="character_name">Collei</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo male catalysts inazuma" src="./assets/portraits/heizou.png">
-                <p class="character_name">Shikanoin Heizou</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female bows liyue" src="./assets/portraits/yelan.png">
-                <p class="character_name">Yelan</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro male swords inazuma" src="./assets/portraits/ayato.png">
-                <p class="character_name">Kamisato Ayato</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female catalysts inazuma" src="./assets/portraits/yae_miko.png">
-                <p class="character_name">Yae Miko</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female polearms liyue" src="./assets/portraits/shenhe.png">
-                <p class="character_name">Shenhe</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo female polearms liyue" src="./assets/portraits/yunjin.png">
-                <p class="character_name">Yun Jin</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo male claymores inazuma" src="./assets/portraits/itto.png">
-                <p class="character_name">Arataki Itto</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo male bows inazuma" src="./assets/portraits/gorou.png">
-                <p class="character_name">Gorou</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro male polearms inazuma" src="./assets/portraits/thoma.png">
-                <p class="character_name">Thoma</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female polearms inazuma" src="assets/portraits/raidenshogun.png">
-                <p class="character_name">Raiden Shogun</p>
-            </div>
-
-
-
-
-
-
-
-            <div class="character">
-                <img class="portraits electro female bows inazuma" src="./assets/portraits/sara.png">
-                <p class="character_name">Kujou Sara</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro female bows inazuma" src="./assets/portraits/yoimiya.png">
-                <p class="character_name">Yoimiya</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo female claymores inazuma" src="./assets/portraits/sayu.png">
-                <p class="character_name">Sayu</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female swords inazuma" src="./assets/portraits/ayaka.png">
-                <p class="character_name">Kamisato Ayaka</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo male swords inazuma" src="./assets/portraits/kazuha.png">
-                <p class="character_name">Kaedehara Kazuha</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro female catalysts liyue" src="./assets/portraits/yanfei.png">
-                <p class="character_name">Yanfei</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female polearms mondstadt" src="./assets/portraits/rosaria.png">
-                <p class="character_name">Rosaria</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro female polearms liyue" src="./assets/portraits/hutao.png">
-                <p class="character_name">Hu Tao</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo male polearms liyue" src="./assets/portraits/xiao.png">
-                <p class="character_name">Xiao</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female bows liyue" src="./assets/portraits/ganyu.png">
-                <p class="character_name">Ganyu</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female catalysts inazuma" src="./assets/portraits/kokomi.png">
-                <p class="character_name">Sangonomiya Kokomi</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo male swords mondstadt" src="./assets/portraits/albedo.png">
-                <p class="character_name">Albedo</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo male polearms liyue" src="./assets/portraits/zhongli.png">
-                <p class="character_name">Zhongli</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro male bows liyue" src="./assets/portraits/tartaglia.png">
-                <p class="character_name">Tartaglia</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro female catalysts mondstadt" src="./assets/portraits/klee.png">
-                <p class="character_name">Klee</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo male bows mondstadt" src="./assets/portraits/venti.png">
-                <p class="character_name">Venti</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female swords liyue" src="./assets/portraits/keqing.png">
-                <p class="character_name">Keqing</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female catalysts mondstadt" src="./assets/portraits/mona.png">
-                <p class="character_name">Mona</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro male claymores mondstadt" src="./assets/portraits/diluc.png">
-                <p class="character_name">Diluc</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo female catalysts mondstadt" src="./assets/portraits/sucrose.png">
-                <p class="character_name">Sucrose</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo male claymores liyue" src="./assets/portraits/chongyun.png">
-                <p class="character_name">Chongyun</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro male swords mondstadt" src="./assets/portraits/bennett.png">
-                <p class="character_name">Bennett</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female bows mondstadt" src="./assets/portraits/fischl.png">
-                <p class="character_name">Fischl</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo female catalysts liyue" src="./assets/portraits/ningguang.png">
-                <p class="character_name">Ningguang</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro male swords liyue" src="./assets/portraits/xingqiu.png">
-                <p class="character_name">Xingqui</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro male claymores mondstadt" src="./assets/portraits/razor.png">
-                <p class="character_name">Razor</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female catalysts mondstadt" src="./assets/portraits/barbara.png">
-                <p class="character_name">Barbara</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female catalysts mondstadt" src="./assets/portraits/lisa.png">
-                <p class="character_name">Lisa</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo male swords mondstadt" src="./assets/portraits/kaeya.png">
-                <p class="character_name">Kaeya</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits electro female swords inazuma" src="./assets/portraits/shinobu%20kuki.png">
-                <p class="character_name">Kuki Shinobu</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits pyro female claymores liyue" src="./assets/portraits/xinyan.png">
-                <p class="character_name">Xinyan</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female claymores mondstadt" src="./assets/portraits/eula.png">
-                <p class="character_name">Eula</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits hydro female polearms sumeru" src="./assets/portraits/candace.png">
-                <p class="character_name">Candace</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female bows mondstadt" src="./assets/portraits/diona.png">
-                <p class="character_name">Diona</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits geo female claymores mondstadt" src="assets/portraits/noelle.png">
-                <p class="character_name">Noelle</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits anemo female swords mondstadt" src="./assets/portraits/jean.png">
-                <p class="character_name">Jean</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo female swords lique" src="./assets/portraits/qiqi.png">
-                <p class="character_name">Qiqi</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits dendro male catalysts lique" src="./assets/portraits/baizhu.png">
-                <p class="character_name">Baizhu</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo male polearm mondstadt" src="./assets/portraits/mika.png">
-                <p class="character_name">Mika</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo pyro geo dendro electro hydro female sword" src="./assets/portraits/lumine.png">
-                <p class="character_name">Lumine</p>
-            </div>
-
-            <div class="character">
-                <img class="portraits cryo pyro geo dendro electro hydro male sword" src="./assets/portraits/aether.png">
-                <p class="character_name">Aether</p>
-            </div>
+</div> -->
 
             <br>
             <br>
@@ -378,7 +39,7 @@
 
         </div>
 
-        <footer>Made with ❤️ by <a href="https://www.github.com/lilmayu">lilmayu</a> | forked from <a href="https://github.com/SiamShafiq/Guess-Who-Stardew">SiamShafiq's Guess Who Stardew Valley</a> | Character art is by Mihoyo</footer>
+	<footer>Made with ❤️ by <a href="https://www.github.com/alyssadev/Guess-Who-Customised">alyssadev</a> | forked from <a href="https://github.com/SiamShafiq/Guess-Who-Stardew">SiamShafiq's Guess Who Stardew Valley</a> and <a href="https://github.com/lilmayu/Guess-Who-Genshin-Impact">lilmayu's Guess Who Genshin Impact</a> | Character art copyright indicated above</footer>
 
         <script type="module">
           </script>

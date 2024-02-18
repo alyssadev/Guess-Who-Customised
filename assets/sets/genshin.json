@@ -1,0 +1,669 @@
+{
+	"title": "Genshin Impact",
+	"backgrounds": {
+		"day": "day.webp",
+		"night": "night.jpg"
+	},
+	"buttons": [
+		{
+			"pyro": "icon_pyro.png",
+			"hydro": "icon_hydro.png",
+			"electro": "icon_electro.png",
+			"anemo": "icon_anemo.png",
+			"cryo": "icon_cryo.png",
+			"geo": "icon_geo.png",
+			"dendro": "icon_dendro.png"
+		}, {
+			"sword": "icon_sword.png",
+			"claymores": "icon_claymores.png",
+			"polearms": "icon_polearms.png",
+			"catalyst": "icon_catalyst.png",
+			"bows": "icon_bows.png"
+		}, {
+			"mondstadt": "icon_mondstadt.png",
+			"liyue": "icon_liyue.png",
+			"inazuma": "icon_inazuma.png",
+			"sumeru": "icon_sumeru.png"
+		}
+	],
+	"characters": [
+		{
+			"name": "Amber",
+			"classes": [
+				"pyro",
+				"female",
+				"bows",
+				"mondstadt"
+			],
+			"portrait": "amber.png"
+		},
+		{
+			"name": "Al Haitham",
+			"classes": [
+				"dendro",
+				"male",
+				"swords",
+				"sumeru"
+			],
+			"portrait": "alhatham.png"
+		},
+		{
+			"name": "Wanderer",
+			"classes": [
+				"anemo",
+				"male",
+				"catalysts",
+				"sumeru"
+			],
+			"portrait": "wanderer.png"
+		},
+		{
+			"name": "Yao Yao",
+			"classes": [
+				"dendro",
+				"female",
+				"polearms",
+				"sumeru"
+			],
+			"portrait": "yaoyao.png"
+		},
+		{
+			"name": "Faruzan",
+			"classes": [
+				"anemo",
+				"female",
+				"bows",
+				"sumeru"
+			],
+			"portrait": "faruzan.png"
+		},
+		{
+			"name": "Layla",
+			"classes": [
+				"cryo",
+				"female",
+				"swords",
+				"sumeru"
+			],
+			"portrait": "layla.png"
+		},
+		{
+			"name": "Nahida",
+			"classes": [
+				"dendro",
+				"female",
+				"catalysts",
+				"sumeru"
+			],
+			"portrait": "nahida.png"
+		},
+		{
+			"name": "Nilou",
+			"classes": [
+				"hydro",
+				"female",
+				"swords",
+				"sumeru"
+			],
+			"portrait": "nilou.png"
+		},
+		{
+			"name": "Cyno",
+			"classes": [
+				"electro",
+				"male",
+				"polearms",
+				"sumeru"
+			],
+			"portrait": "cyno.png"
+		},
+		{
+			"name": "Dori",
+			"classes": [
+				"electro",
+				"female",
+				"claymores",
+				"sumeru"
+			],
+			"portrait": "dori.png"
+		},
+		{
+			"name": "Tighnari",
+			"classes": [
+				"dendro",
+				"male",
+				"bows",
+				"sumeru"
+			],
+			"portrait": "tighnari.png"
+		},
+		{
+			"name": "Collei",
+			"classes": [
+				"dendro",
+				"female",
+				"bows",
+				"sumeru"
+			],
+			"portrait": "collei.png"
+		},
+		{
+			"name": "Shikanoin Heizou",
+			"classes": [
+				"anemo",
+				"male",
+				"catalysts",
+				"inazuma"
+			],
+			"portrait": "heizou.png"
+		},
+		{
+			"name": "Yelan",
+			"classes": [
+				"hydro",
+				"female",
+				"bows",
+				"liyue"
+			],
+			"portrait": "yelan.png"
+		},
+		{
+			"name": "Kamisato Ayato",
+			"classes": [
+				"hydro",
+				"male",
+				"swords",
+				"inazuma"
+			],
+			"portrait": "ayato.png"
+		},
+		{
+			"name": "Yae Miko",
+			"classes": [
+				"electro",
+				"female",
+				"catalysts",
+				"inazuma"
+			],
+			"portrait": "yae_miko.png"
+		},
+		{
+			"name": "Shenhe",
+			"classes": [
+				"cryo",
+				"female",
+				"polearms",
+				"liyue"
+			],
+			"portrait": "shenhe.png"
+		},
+		{
+			"name": "Yun Jin",
+			"classes": [
+				"geo",
+				"female",
+				"polearms",
+				"liyue"
+			],
+			"portrait": "yunjin.png"
+		},
+		{
+			"name": "Arataki Itto",
+			"classes": [
+				"geo",
+				"male",
+				"claymores",
+				"inazuma"
+			],
+			"portrait": "itto.png"
+		},
+		{
+			"name": "Gorou",
+			"classes": [
+				"geo",
+				"male",
+				"bows",
+				"inazuma"
+			],
+			"portrait": "gorou.png"
+		},
+		{
+			"name": "Thoma",
+			"classes": [
+				"pyro",
+				"male",
+				"polearms",
+				"inazuma"
+			],
+			"portrait": "thoma.png"
+		},
+		{
+			"name": "Raiden Shogun",
+			"classes": [
+				"electro",
+				"female",
+				"polearms",
+				"inazuma"
+			],
+			"portrait": "raidenshogun.png"
+		},
+		{
+			"name": "Kujou Sara",
+			"classes": [
+				"electro",
+				"female",
+				"bows",
+				"inazuma"
+			],
+			"portrait": "sara.png"
+		},
+		{
+			"name": "Yoimiya",
+			"classes": [
+				"pyro",
+				"female",
+				"bows",
+				"inazuma"
+			],
+			"portrait": "yoimiya.png"
+		},
+		{
+			"name": "Sayu",
+			"classes": [
+				"anemo",
+				"female",
+				"claymores",
+				"inazuma"
+			],
+			"portrait": "sayu.png"
+		},
+		{
+			"name": "Kamisato Ayaka",
+			"classes": [
+				"cryo",
+				"female",
+				"swords",
+				"inazuma"
+			],
+			"portrait": "ayaka.png"
+		},
+		{
+			"name": "Kaedehara Kazuha",
+			"classes": [
+				"anemo",
+				"male",
+				"swords",
+				"inazuma"
+			],
+			"portrait": "kazuha.png"
+		},
+		{
+			"name": "Yanfei",
+			"classes": [
+				"pyro",
+				"female",
+				"catalysts",
+				"liyue"
+			],
+			"portrait": "yanfei.png"
+		},
+		{
+			"name": "Rosaria",
+			"classes": [
+				"cryo",
+				"female",
+				"polearms",
+				"mondstadt"
+			],
+			"portrait": "rosaria.png"
+		},
+		{
+			"name": "Hu Tao",
+			"classes": [
+				"pyro",
+				"female",
+				"polearms",
+				"liyue"
+			],
+			"portrait": "hutao.png"
+		},
+		{
+			"name": "Xiao",
+			"classes": [
+				"anemo",
+				"male",
+				"polearms",
+				"liyue"
+			],
+			"portrait": "xiao.png"
+		},
+		{
+			"name": "Ganyu",
+			"classes": [
+				"cryo",
+				"female",
+				"bows",
+				"liyue"
+			],
+			"portrait": "ganyu.png"
+		},
+		{
+			"name": "Sangonomiya Kokomi",
+			"classes": [
+				"hydro",
+				"female",
+				"catalysts",
+				"inazuma"
+			],
+			"portrait": "kokomi.png"
+		},
+		{
+			"name": "Albedo",
+			"classes": [
+				"geo",
+				"male",
+				"swords",
+				"mondstadt"
+			],
+			"portrait": "albedo.png"
+		},
+		{
+			"name": "Zhongli",
+			"classes": [
+				"geo",
+				"male",
+				"polearms",
+				"liyue"
+			],
+			"portrait": "zhongli.png"
+		},
+		{
+			"name": "Tartaglia",
+			"classes": [
+				"hydro",
+				"male",
+				"bows",
+				"liyue"
+			],
+			"portrait": "tartaglia.png"
+		},
+		{
+			"name": "Klee",
+			"classes": [
+				"pyro",
+				"female",
+				"catalysts",
+				"mondstadt"
+			],
+			"portrait": "klee.png"
+		},
+		{
+			"name": "Venti",
+			"classes": [
+				"anemo",
+				"male",
+				"bows",
+				"mondstadt"
+			],
+			"portrait": "venti.png"
+		},
+		{
+			"name": "Keqing",
+			"classes": [
+				"electro",
+				"female",
+				"swords",
+				"liyue"
+			],
+			"portrait": "keqing.png"
+		},
+		{
+			"name": "Mona",
+			"classes": [
+				"hydro",
+				"female",
+				"catalysts",
+				"mondstadt"
+			],
+			"portrait": "mona.png"
+		},
+		{
+			"name": "Diluc",
+			"classes": [
+				"pyro",
+				"male",
+				"claymores",
+				"mondstadt"
+			],
+			"portrait": "diluc.png"
+		},
+		{
+			"name": "Sucrose",
+			"classes": [
+				"anemo",
+				"female",
+				"catalysts",
+				"mondstadt"
+			],
+			"portrait": "sucrose.png"
+		},
+		{
+			"name": "Chongyun",
+			"classes": [
+				"cryo",
+				"male",
+				"claymores",
+				"liyue"
+			],
+			"portrait": "chongyun.png"
+		},
+		{
+			"name": "Bennett",
+			"classes": [
+				"pyro",
+				"male",
+				"swords",
+				"mondstadt"
+			],
+			"portrait": "bennett.png"
+		},
+		{
+			"name": "Fischl",
+			"classes": [
+				"electro",
+				"female",
+				"bows",
+				"mondstadt"
+			],
+			"portrait": "fischl.png"
+		},
+		{
+			"name": "Ningguang",
+			"classes": [
+				"geo",
+				"female",
+				"catalysts",
+				"liyue"
+			],
+			"portrait": "ningguang.png"
+		},
+		{
+			"name": "Xingqui",
+			"classes": [
+				"hydro",
+				"male",
+				"swords",
+				"liyue"
+			],
+			"portrait": "xingqiu.png"
+		},
+		{
+			"name": "Razor",
+			"classes": [
+				"electro",
+				"male",
+				"claymores",
+				"mondstadt"
+			],
+			"portrait": "razor.png"
+		},
+		{
+			"name": "Barbara",
+			"classes": [
+				"hydro",
+				"female",
+				"catalysts",
+				"mondstadt"
+			],
+			"portrait": "barbara.png"
+		},
+		{
+			"name": "Lisa",
+			"classes": [
+				"electro",
+				"female",
+				"catalysts",
+				"mondstadt"
+			],
+			"portrait": "lisa.png"
+		},
+		{
+			"name": "Kaeya",
+			"classes": [
+				"cryo",
+				"male",
+				"swords",
+				"mondstadt"
+			],
+			"portrait": "kaeya.png"
+		},
+		{
+			"name": "Kuki Shinobu",
+			"classes": [
+				"electro",
+				"female",
+				"swords",
+				"inazuma"
+			],
+			"portrait": "shinobu%20kuki.png"
+		},
+		{
+			"name": "Xinyan",
+			"classes": [
+				"pyro",
+				"female",
+				"claymores",
+				"liyue"
+			],
+			"portrait": "xinyan.png"
+		},
+		{
+			"name": "Eula",
+			"classes": [
+				"cryo",
+				"female",
+				"claymores",
+				"mondstadt"
+			],
+			"portrait": "eula.png"
+		},
+		{
+			"name": "Candace",
+			"classes": [
+				"hydro",
+				"female",
+				"polearms",
+				"sumeru"
+			],
+			"portrait": "candace.png"
+		},
+		{
+			"name": "Diona",
+			"classes": [
+				"cryo",
+				"female",
+				"bows",
+				"mondstadt"
+			],
+			"portrait": "diona.png"
+		},
+		{
+			"name": "Noelle",
+			"classes": [
+				"geo",
+				"female",
+				"claymores",
+				"mondstadt"
+			],
+			"portrait": "noelle.png"
+		},
+		{
+			"name": "Jean",
+			"classes": [
+				"anemo",
+				"female",
+				"swords",
+				"mondstadt"
+			],
+			"portrait": "jean.png"
+		},
+		{
+			"name": "Qiqi",
+			"classes": [
+				"cryo",
+				"female",
+				"swords",
+				"lique"
+			],
+			"portrait": "qiqi.png"
+		},
+		{
+			"name": "Baizhu",
+			"classes": [
+				"dendro",
+				"male",
+				"catalysts",
+				"lique"
+			],
+			"portrait": "baizhu.png"
+		},
+		{
+			"name": "Mika",
+			"classes": [
+				"cryo",
+				"male",
+				"polearm",
+				"mondstadt"
+			],
+			"portrait": "mika.png"
+		},
+		{
+			"name": "Lumine",
+			"classes": [
+				"cryo",
+				"pyro",
+				"geo",
+				"dendro",
+				"electro",
+				"hydro",
+				"female",
+				"sword"
+			],
+			"portrait": "lumine.png"
+		},
+		{
+			"name": "Aether",
+			"classes": [
+				"cryo",
+				"pyro",
+				"geo",
+				"dendro",
+				"electro",
+				"hydro",
+				"male",
+				"sword"
+			],
+			"portrait": "aether.png"
+		}
+	]
+}
